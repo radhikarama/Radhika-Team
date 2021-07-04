@@ -75,7 +75,7 @@ namespace Assissnments
                         
                         if (r1 % column == column - 1)
                         {
-                            Console.WriteLine(r1 % column);
+                            
                             Console.WriteLine("right shift dosent exits:");
                         }
                         else
@@ -118,7 +118,7 @@ namespace Assissnments
                         break;
                     case 2:
                         
-                        if (cp >= 0 && cp<=((a.Length-1)-column))
+                        if (cp >= 0 && cp<((a.Length-1)-column))
                         {
                             input(a, cp+=column);
                                 ZeroMatrix(a, row, column);                        
