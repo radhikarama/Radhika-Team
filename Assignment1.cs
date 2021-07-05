@@ -46,12 +46,14 @@ namespace Assissnments
 
         static void Main(string[] args)
         {
-            int row, column, shiftD,cp=0;
-            Console.WriteLine("Enter the Row Size");
+            int row, column,n, shiftD,cp=0;
+            Console.WriteLine("Enter the Array  Size");
+             n = int.Parse(Console.ReadLine());
+          /*  Console.WriteLine("Enter the Row Size");
             row = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Column Size");
-            column = int.Parse(Console.ReadLine());
-            
+            column = int.Parse(Console.ReadLine());*/
+            row = n; column = n;
             int n1 = (int)(row * column);
             int[] a = new int[n1];
             input(a,cp);
