@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+   }
+   .container
+   {
+       width: 100%;
+       height: 100px; 
+       background-color:brown; 
+    border-bottom-right-radius: 15ch;
+    border-bottom-left-radius: 15ch;
+       
+   }
+
+   .logodiv
+    {
+        width: 30%;
+        float: left;
+    }
+
+    .logodiv img
+    {
+        height: 100px;
+        width: 200px;
+    }
+    .menu{
+        width: 70%;
+        float: left;
+    }
+
+    .li_style, .button
+    {
+        float: left;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Roboto', 'Helvetica', 'Sans-serif';
+        margin-top: 4%;
+        list-style: none;
+    }
+
+    .li_style a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    .li_style a:hover
+    {
+        color: gold;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .button 
+    {
+        background-color: red;
+        margin-top: 2.5%;
+        border: none;
+        padding: 12px 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .button a
+    {
+        color: white;
+        text-decoration: none;
+    }
+/* first part */
+
+.navigations{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: orange;
+    height: 30px;
+}
+.one{
+    padding-left:6px;
+    width: 150px;
+    margin-left: 90%;
+    margin-top: 2%;
+    float: left;
+    font-size: 30px;
+}
+
+.big_img
+{
+  background-image: url('../assests/a.jpg');
+  width: 100%;
+  min-height:600px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.text_big{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;  
+}
+.text_big p{
+    margin-top: 10px;
+    font-size:large;
+    color:whitesmoke;
+    text-align: justify;
+    line-height: 25px;
+}
+/* */
+/* second section */
+.s{
+    background-color: lemonchiffon;
+    width: 100%;
+    height:400px;
+}
+.lowfood h1
+{
+    font-size: 30px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.low_txt1{
+    position: relative;
+    top: 60px;
+    left: 45px;
+    width: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:16px;
+}
+
+.low_txt1 p
+{
+    line-height: 18px;
+    text-align: justify;
+}
+/* diet menu */
+.s1{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    padding-left: 25%;
+}
+
+
+
+.s1 h1{
+    color: gold;
+    padding-left: 25%;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.s1 p{
+    font-size:20px;
+    padding-left: 10%;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.food_items2{
+    width: 70%;
+    height: auto;
+    background-color: rgb(104, 84, 84);
+    float: left;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  
+  }
+  .row::after {
+    /*content: "";
+    clear: both;
+    display: table;*/
+  }
+  /* footer */
+  .footer
+  {
+      background-color: grey;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      padding-top: 35px;
+  }
+
+  .footer p
+  {
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+  }
+      

@@ -1,0 +1,300 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+        /* global headers*/
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin: 0;
+            color: #f7f7f7;
+            font-weight: 400;
+            font-family: "Oswald", sans-serif;
+        }
+        
+        h1 {
+            font-size: 100px;
+        }
+        
+        h2 {
+            font-size: 36px;
+        }
+        
+        h3 {
+            font-size: 30px;
+        }
+        
+        h4 {
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 15px;
+            font-family: "Muli", sans-serif;
+            color: #a9a9a9;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0 0 15px 0;
+            padding-bottom: 10px;
+        }
+/*---------------------
+  Helper CSS
+-----------------------*/
+
+.section-title {
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.section-title span {
+	font-size: 50px;
+	color: #f36100;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-title h2 {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+
+
+.spad {
+	padding-top: 100px;
+	
+}
+
+
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
+
+    header
+    {
+        background-image: url(../image/banner.jpg);
+        width: 100%;
+        height: 90vh; 
+        background-size: 100% 100%; 
+    }
+
+    .hero-text-box{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        font-size: 50px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+
+    .logodiv
+    {
+        width: 30%;
+        float: left;
+    }
+
+    .logodiv img
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+    .menu{
+        width: 70%;
+        float: left;
+    }
+
+    .li_style, .button
+    {
+        float: left;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Roboto', 'Helvetica', 'Sans-serif';
+        margin-top: 4%;
+        list-style: none;
+    }
+
+
+    .li_style a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    .li_style a:hover
+    {
+        color: gold;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .button 
+    {
+        background-color: red;
+        margin-top: 2%;
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .button a
+    {
+        color: white;
+        text-decoration: none;
+    }
+/*---------------------
+  ChoseUs Section
+-----------------------*/
+
+.choseus-section {
+	background: #0a0a0a;
+	padding-bottom: 100px;
+}
+
+.cs-item {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+.cs-item span {
+	height: 90px;
+	width: 90px;
+	background: rgb(209, 208, 208);
+	border-radius: 50%;
+	display: inline-block;
+	
+	line-height: 90px;
+	text-align: center;
+	
+
+}
+
+.cs-item span:hover{
+    background: #f36100;
+	border-color: #f36100;
+}
+
+.cs-item h4 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+/*about us section*/
+.aboutus-section {
+    background: rgb(10, 10, 10);
+    
+}
+.about-text {
+    background: #000000;
+    height: 640px;
+    padding: 29px 100px 5px 100px;
+}
+.about-text .about-bar .ab-item {
+    margin-bottom: 34px;
+}
+.barfiller {
+    width:100%;
+    height:12px;
+    background:#fcfcfc;
+    border:1px solid #ccc;
+    position:relative;
+    margin-bottom:20px;
+    
+}
+/*---------------------
+  aooiintment  Section
+-----------------------*/
+
+.banner-section {
+    background-image: url(../image/2.jpg);
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.bs-text h2 {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.bs-text .bt-tips {
+	font-size: 20px;
+	color: #f13506;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+    text-align: center;
+}
+
+.bs-text .primary-btn {
+	background: transparent;
+	border: 2px solid #f36100;
+    text-align: center;
+}
+
+
+/* buttons */
+
+.primary-btn {
+	display: inline-block;
+	font-size: 14px;
+	padding: 17px 30px 16px;
+	color: #ffffff;
+
+	line-height: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+    
+}
+
+
+.primary-btn:hover {
+	background: #f36100;
+	border-color: #f36100;
+}
+/* footer */
+.footer
+{
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footer p
+{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
